@@ -1,0 +1,270 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi","Hii", "Hey", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Whats cooking"],
+     "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?", "Hello! I'm Dexter. How may I help you?", "Hey there!"],
+     "context_set": ""
+    },
+    {"tag": "book_table",
+    
+        "patterns": [
+            "Book a table",
+            "Can I book a table?",
+            "I want to book a table",
+            "Book seat",
+            "I want to book a seat",
+            "Can I book a seat?",
+            "Reserve a table",
+            "I need to book a table",
+            "Help me book a table",
+            "Can you book a table for me?",
+            "Reserve a seat for me",
+            "Can I reserve a table?",
+            "I'd like to make a reservation",
+            "Table reservation please",
+            "Can I get a table?",
+            "Book me a seat"
+        ],
+        "responses": [
+            "Sure! How many people should I book the table for?",
+            "I'd be happy to help! When and how many seats would you like to reserve?",
+            "Let me assist you with that. Can you provide the date, time, and number of people?",
+            "Of course! Please let me know the details of your reservation.",
+            "Table booked! Just kidding — I need the specifics first. When and for how many?",
+            "Absolutely! What time and how many seats should I reserve for you?",
+            "I'll help you book it. Can you share the reservation details?",
+            "Great choice! Let me know the date and time, and I’ll reserve a table for you.",
+            "Could you specify the time and the number of seats you need?",
+            "Happy to help! Let’s lock in the reservation. Could you share the details?"
+        ],
+    
+    
+     "context_set": ""
+    },
+    {"tag": "available_tables",
+     "patterns": ["How many seats are available?", "Available seats", "How many tables are available?", "Available tables"],
+     "responses": ["Sure, I can help you book a table. For how many people?",
+        "What date and time would you like to reserve a table?",
+        "Let me assist you in booking a table. Could you please provide the details?",
+        "Certainly! Can you specify the number of seats and the reservation time?",
+        "I'd be happy to help. Please share the reservation details (date, time, and number of people)."],
+     "context_set": ""
+    },
+    {"tag": "goodbye",
+    
+        "patterns": [
+            "cya",
+            "See you later",
+            "Goodbye",
+            "I am Leaving",
+            "Have a good day",
+            "cya later",
+            "I gotta go now",
+            "I gotta rush now",
+            "Bye",
+            "Catch you later",
+            "Talk to you soon",
+            "I'm heading out",
+            "See you soon",
+            "Take care",
+            "I’m off now",
+            "Later",
+            "Farewell"
+        ],
+        "responses": [
+            "Sad to see you go :(",
+            "Talk to you later!",
+            "Goodbye!",
+            "See you next time!",
+            "Take care and have a great day!",
+            "Until next time!",
+            "Have a wonderful day ahead!",
+            "Farewell, my friend!",
+            "Safe travels!",
+            "Hope to see you again soon!"
+        ],
+    
+    
+     "context_set": ""
+    },
+    {"tag": "age",
+    
+        "patterns": [
+            "how old",
+            "how old is Dexter",
+            "what is your age",
+            "how old are you",
+            "age?",
+            "Can you tell me your age?",
+            "What's your age?",
+            "How long have you existed?",
+            "When were you created?",
+            "How long have you been alive?",
+            "Are you old?",
+            "What’s your birthday?"
+        ],
+        "responses": [
+            "My master built me just a month ago.",
+            "Just a month old!",
+            "I’m very young—only a month old!",
+            "I was created recently, so I’m just a month old!",
+            "I’m practically a newborn—only a month old.",
+            "I was built not too long ago, just a month!",
+            "Age is just a number, and mine is only 1 month.",
+            "Only a month old, but learning fast!"
+        ],
+    
+     "context_set": ""
+    },
+    
+    {  "tag": "name",
+        "patterns": [
+            "what is your name",
+            "what should I call you",
+            "whats your name?",
+            "who are you?",
+            "do you have a name?",
+            "tell me your name",
+            "may I know your name?",
+            "can you tell me your name?",
+            "what are you called?",
+            "who am I speaking to?",
+            "what's your identity?"
+        ],
+        "responses": [
+            "You can call me Dexter.",
+            "I'm Dexter!",
+            "I'm Dexter, aka The Restaurant Superbot.",
+            "My name is Dexter. Nice to meet you!",
+            "I go by Dexter. How can I assist you today?",
+            "Dexter’s the name, helping you is my game!",
+            "I’m Dexter, your friendly restaurant assistant bot.",
+            "Just call me Dexter. How can I help?"
+        ],
+     "context_set": ""
+    },
+    {"tag": "hours",
+    
+        "patterns": [
+            "when are you guys open",
+            "what are your hours",
+            "hours of operation",
+            "hours",
+            "what is the timing",
+            "what time do you open",
+            "what time do you close",
+            "opening hours",
+            "closing hours",
+            "are you open now?",
+            "when do you open",
+            "what time are you open until",
+            "can you tell me your hours?",
+            "tell me your opening and closing times",
+            "what are your business hours?"
+        ],
+        "responses": [
+            "We are open 10am-12am Monday-Friday!",
+            "Our hours are 10am to 12am, Monday through Friday.",
+            "We’re open from 10am to midnight on weekdays.",
+            "We operate Monday-Friday from 10am to 12am.",
+            "You can visit us between 10am and 12am, Monday-Friday.",
+            "Our business hours are 10am-12am, Monday through Friday. Let us know when you plan to stop by!",
+            "We’re available Monday to Friday, 10am until midnight.",
+            "We open at 10am and close at 12am on weekdays!"
+        ],
+     "context_set": ""
+    },
+    {"tag": "menu",
+     "patterns": [
+        "I'd like to order something",
+        "What's on the menu",
+        "What do you recommend?",
+        "Could I get something to eat",
+        "I'm hungry",
+        "Show me the menu",
+        "Can I see the menu?",
+        "What food do you have?",
+        "Can I order now?",
+        "What's good here?",
+        "Do you have any recommendations?",
+        "I’d like to place an order",
+        "What dishes do you serve?",
+        "Tell me your specials",
+        "What can I eat here?",
+        "What’s available to eat?"
+    ],
+    "responses": [
+        "Sure! Here’s our menu. Do you have a specific dish in mind?",
+        "We’ve got plenty of delicious options! Let me show you the menu.",
+        "Feeling hungry? Check out our menu for today’s specials.",
+        "Of course! What would you like to order? I can recommend something if you’re unsure.",
+        "I’d be happy to help! Let me share our menu with you.",
+        "Here’s what we offer! Do you want me to suggest something popular?",
+        "Let’s satisfy that hunger! Would you like to hear about our top dishes?",
+        "Our menu has a variety of options to choose from. Any specific cravings?",
+        "I can help you pick something amazing. What are you in the mood for?",
+        "You’re in the right place for great food! Let me know if you need recommendations."
+    ],
+     "context_set": ""
+    },
+    {"tag": "contact",
+     "patterns": [
+        "contact information",
+        "contact us",
+        "how can I contact you",
+        "can I get the contact details",
+        "I wanna give some feedback",
+        "how can I give some feedback?",
+        "what’s your email?",
+        "how do I reach you?",
+        "can I call you?",
+        "what’s your phone number?",
+        "how do I send feedback?",
+        "I’d like to get in touch",
+        "give me your contact details",
+        "how can I reach out to you?",
+        "can I send you a message?"
+    ],
+    "responses": [
+        "You can contact us at contact@restaurantname.com.",
+        "Feel free to reach out to us at contact@restaurantname.com.",
+        "Our email address is contact@restaurantname.com. We’d love to hear from you!",
+        "You can email us at contact@restaurantname.com, or call us at (555) 123-4567.",
+        "Have feedback? Send it to contact@restaurantname.com. We’re all ears!",
+        "We’d love to hear from you! Drop us a line at contact@restaurantname.com.",
+        "Reach out to us anytime at contact@restaurantname.com or give us a call at (555) 123-4567.",
+        "Got something to share? Email us at contact@restaurantname.com or leave feedback on our website!"
+    ],
+     "context_set": ""
+    },
+    {"tag": "address",
+     "patterns": [
+        "what is the location?",
+        "what's the location",
+        "where are you located?",
+        "where is the restaurant located?",
+        "address",
+        "what's the address?",
+        "where can I find you?",
+        "location of the restaurant",
+        "restaurant address",
+        "how do I get to your place?",
+        "where is your restaurant?",
+        "tell me your location",
+        "can you share your address?",
+        "where exactly are you?",
+        "give me directions to your restaurant"
+    ],
+    "responses": [
+        "You can locate us at Taj Lands End, Bandra Bandstand, Bandra West, Mumbai, Maharashtra 400 050.",
+        "We are located at Taj Lands End, Bandra West, Mumbai. Feel free to drop by!",
+        "Find us at Taj Lands End, Bandra Bandstand, Bandra West, Mumbai 400 050.",
+        "Our address is Taj Lands End, Bandra West, Mumbai. We look forward to your visit!",
+        "We’re situated at Taj Lands End, Bandra Bandstand, Mumbai. Come by anytime!",
+        "You’ll find us at Taj Lands End, Bandra West, Mumbai, Maharashtra. Let us know if you need more directions!",
+        "Our restaurant is located at Bandra Bandstand, Taj Lands End, Mumbai 400 050.",
+        "We’re at Taj Lands End, Bandra West, Mumbai. Let us know if you need assistance finding us!"
+    ],
+     "context_set": ""
+    }
+]
+}
